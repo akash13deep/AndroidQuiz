@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8F1AAC7E"
+        android:gravity="center"
+        android:text="Quiz"
+        android:textSize="30dp">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#8F1AAC7E"
+            android:gravity="center"
+            android:text="10 marks for each question">
+
+        </TextView>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+        android:text="Q-1.What type of animal is a seahorse?">
+
+    </TextView>
+
+        <RadioGroup
+            android:id="@+id/radio1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/r11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crustacean">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arachnid">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fish">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shell">
+
+            </RadioButton>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Q-2. Which of the following dogs is the smallest?">
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/radio2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/r21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pug">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poodle">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pomeranian">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chihuahua">
+
+            </RadioButton>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Q-3. What color are zebras?">
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/radio3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/r31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="White">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Black">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Both ">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="None ">
+
+            </RadioButton>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Q-4. What existing bird has the largest wingspan?">
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/radio4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/r41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stork">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swan">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Condor">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Albatross">
+
+            </RadioButton>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Q-5 What is the biggest animal that has ever lived?">
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/radio5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/r51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Whale">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Elephant">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horse">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Owl">
+
+            </RadioButton>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Q-6. What pets do more families own?">
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/radio6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/r61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Birds">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cats">
+
+            </RadioButton>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dogs">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horses">
+
+            </RadioButton>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Q-7. What animal lives the longest?">
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/radio7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/r71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="clam">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Urchin">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tortois">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rockfish">
+
+            </RadioButton>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Q-8. What are female elephants called?">
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/radio8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/r81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mares">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r82"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sows">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r83"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cows">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r84"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dams">
+
+            </RadioButton>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Q-9. Which of the following animals sleep standing up?">
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/radio9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/r91"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gorillas">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r92"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flamingos">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r93"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camels">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r94"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ravens">
+
+            </RadioButton>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Q-10. What is the fastest water animal?">
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/radio10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/r101"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Porpoise">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r102"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sailfish">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r103"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fish">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/r104"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuna">
+
+            </RadioButton>
+        </RadioGroup>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:onClick="button"
+        android:text="OK"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:onClick="reset"
+        android:text="RESET"
+        android:textSize="20dp" />
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESULT"
+            android:textSize="20dp">
+
+        </TextView>
+
+            <EditText
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
+
+
+
+
+<!--    1-A.  fish  r13-->
+
+<!--    2-D. chihuhua  r24 -->
+
+<!--    3-B. black r32 -->
+
+<!--    4-D. albatross r44-->
+
+<!--    5-A. whale r51-->
+
+<!--    6-B.cats r62.-->
+
+<!--    7-A: tortoise r73-->
+
+<!--    8-C: cows. r83-->
+
+<!--    9-B: Flamingos r92-->
+
+<!--    10-B:  sailfish r102-->
